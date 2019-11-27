@@ -26,7 +26,7 @@ public class QuickSort {
         return i + 1;
     }
 
-    /*  Implement QuickSort by using a recursive approach */
+    /* Implement QuickSort by using a recursive approach */
     private void sort(int[] numArray, int lowIndex, int highIndex) {
         if (lowIndex < highIndex) {
             int pIndex = partition(numArray, lowIndex, highIndex);
